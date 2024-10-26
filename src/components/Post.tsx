@@ -2,19 +2,17 @@ import React from "react";
 
 const Post = () => {
   return (
-    <div className="bg-white w-[483px] p-8">
-      <h1 className="text-xl font-bold">
-        Making a design system from <br /> scratch
-      </h1>
-      <br />
-
-      <p>12 Feb 2020 &nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Design,Pattern</p>
-      <br />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa deserunt
-        sunt obcaecati architecto deleniti non consectetur nobis tempore. Nihil
-        aliquam, adipisci assumenda est eos reiciendis, rem, repudiandae quia in
-        porro quas voluptates nesciunt iusto!
+    <div className="bg-white px-8 pr-10 py-9 ">
+      <h2 className="text-[26px] font-[700] leading-[38px]">
+        Making a design system from scratch
+      </h2>
+      <p className="text-[#545454] flex flex-wrap text-[17px] mt-4">
+        12 Feb 2020 | Design , Pattern
+      </p>
+      <p className="mt-6 mb-4 leading-[23.5px] text-[#21243D] font-[400]">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
+        laboriosam debitis maiores consequuntur commodi magni id harum, ipsa
+        obcaecati deserunt fuga dignissimos nte?
       </p>
     </div>
   );
