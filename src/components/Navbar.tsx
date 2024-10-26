@@ -3,8 +3,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-end items-center mt-20">
-      <nav className="flex justify-center items-center gap-5 font-bold pr-16">
+    <div className="w-full flex justify-center sm:justify-end items-center mt-20">
+      <nav className="flex justify-center items-center gap-5 font-bold lg:pr-16">
         <Link href="">Works</Link>
         <Link href="">Blog</Link>
         <Link href="">Contact</Link>

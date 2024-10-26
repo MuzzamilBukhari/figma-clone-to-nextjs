@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./fonts/Araboto-Thin-400.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./fonts/Araboto\ Light\ 400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./fonts/Araboto\ Normal\ 400.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./fonts/Araboto\ Medium\ 400.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./fonts/Araboto\ Bold\ 400.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+

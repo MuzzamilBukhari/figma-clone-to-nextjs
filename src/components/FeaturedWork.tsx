@@ -6,9 +6,11 @@ import featured from "../../public/images/featured.png";
 
 const FeaturedWork = () => {
   return (
-    <div className="bg-[#CFA6A61C]">
-      <h1 className="text-2xl font-bold ml-36 my-12">Featured works</h1>
-      <div className="flex justify-center items-center flex-col gap-20">
+    <div className="px-4 md:px-8 lg:px-16">
+      <h1 className="text-xl md:text-2xl font-bold text-center md:text-left ml-0 md:ml-8 my-8 md:my-12">
+        Featured works
+      </h1>
+      <div className="flex flex-col items-center gap-16 md:gap-20">
         <Featured image={featured} />
         <Featured image={girl} />
         <Featured image={logo} />
